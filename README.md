@@ -28,6 +28,10 @@ This was a really fun project to do. I ran into some coding problems where I cou
 
 
 
+
+## Finite L.E.D.
+
+
 ### Description
 
 This is the second assignement for the Arduino course. The L.E.D. turns on and off five times, then delays for 5 seconds, and repeats the process. I used new codes like (**digitalWrite**) (**Counter++**) and (**pinMode**). the counter is used to count the number of times the L.E.D. will blink, the pinMode is used to show what pin to use, digitalWrite is used to turn the L.E.D. on and off. 
@@ -40,7 +44,60 @@ This is the second assignement for the Arduino course. The L.E.D. turns on and o
 
 ### Image
 
+![Finite LED image ](Pictures%20For%20Arduino/FiniteLED.jpg)
+
+
 ### Reflection
+
+this assignment was kind of hard at first. but I started to just code randomly with (**Counter++**) and somehow the assignment was related to that code. I contined to work on it by adding some (**if**) statements and (**digitalWrites**) which helped turn the L.E.D. on and off. 
+
+
+
+
+
+---
+
+
+
+
+
+
+### Description
+
+### Evidence
+
+.[tile](link)
+
+### Image
+
+![title](link)
+
+
+### Reflection
+
+
+
+
+
+---
+
+
+
+
+### Description
+
+### Evidence
+
+.[tile](link)
+
+### Image
+
+![title](link)
+
+
+### Reflection
+
+
 
 
 
@@ -57,47 +114,11 @@ This is the second assignement for the Arduino course. The L.E.D. turns on and o
 
 .[tile](link)
 
-### Image
-
-### Reflection
-
-
-
-
-
----
-
-
-
-
-### Description
-
-### Evidence
-
-.[tile](link)
 
 ### Image
 
-### Reflection
+![title](link)
 
-
-
-
-
-
----
-
-
-
-
-
-### Description
-
-### Evidence
-
-.[tile](link)
-
-### Image
 
 ### Reflection
 
