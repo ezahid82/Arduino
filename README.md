@@ -61,12 +61,16 @@ this assignment was kind of hard at first. but I started to just code randomly w
 
 
 
+## Hello Functions 
+
 
 ### Description
 
+This is the third assignment for the Ardiuno course. The coding was different since I need to print out values (**Serial.print ("distance: ");**) than words. I had to make the servo spin for the value that the ultrasonic sensor produced. the servo was in a different branch of the code. It had to function separatly because they would confuse each other when a distance was print. The wiring and coding were all done on a website called (**tinkercad**) since there was a problem. 
+
 ### Evidence
 
-.[tile](link)
+.[ TinkerCAD wiring ](https://www.tinkercad.com/things/64qZtm935sM-glorious-bruticus-hillar/editel)
 
 ### Image
 
@@ -75,7 +79,7 @@ this assignment was kind of hard at first. but I started to just code randomly w
 
 ### Reflection
 
-
+This was a very confusing assignment since I ran into problems were the serial moitor wouldn't print any thing. I had to restart my chromebook many times but still no change ocurred. Then, I decided to switch to tinkerCAD were I already did the wiring and coding for testing. I decided to use tinkCAD for the rest of the Ardiuno course since it has the wiring and coding functions built in. 
 
 
 
