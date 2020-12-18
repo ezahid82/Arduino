@@ -74,7 +74,57 @@ This is the third assignment for the Ardiuno course. The coding was different si
 
 ### Image
 
-![title](link)
+![Hello Function Wiring](Pictures%20For%20Arduino/Hello%20Function.png)
+
+
+
+c++
+
+const int trigPin = 9;
+const int echoPin = 11;
+float duration, distance;
+#include <Servo.h>
+int servoPin = 9; 
+
+Servo myservo;
+
+
+void setup(){
+{
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  Serial.begin(9600);
+}
+
+{
+  myservo.attach(servoPin);
+  myservo.write(0);
+}
+}
+  void loop(){
+  {
+    digitalWrite(trigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+
+    duration = pulseIn(echoPin, HIGH);
+    distance = (duration * .4);
+    Serial.print("Distance: ");
+    Serial.println(distance);
+    delay(500);
+  }
+  
+  {
+   if (distance == 0)
+   myservo.write(0);
+   if (distance > 0 )
+   myservo.write(duration * .4);
+  }
+}
+
+
 
 
 ### Reflection
