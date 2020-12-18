@@ -78,7 +78,7 @@ This is the third assignment for the Ardiuno course. The coding was different si
 
 
 
-C++
+```C++
 
 const int trigPin = 9;
 const int echoPin = 11;
@@ -125,9 +125,6 @@ void setup(){
 }
 
 ```
-
-
----
 
 
 
