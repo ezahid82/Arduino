@@ -78,7 +78,7 @@ This is the third assignment for the Ardiuno course. The coding was different si
 
 
 
-c++
+C++
 
 const int trigPin = 9;
 const int echoPin = 11;
@@ -123,6 +123,11 @@ void setup(){
    myservo.write(duration * .4);
   }
 }
+
+```
+
+
+---
 
 
 
