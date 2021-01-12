@@ -154,7 +154,7 @@ This assignment required an ultrasonic sensor, L.E.D., button and resistors. The
 
 ### Image
 
-![title](link)
+![New Ping Wiring](Pictures%20For%20Arduino/New%20Ping.png)
 
 
 
