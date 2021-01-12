@@ -140,19 +140,81 @@ This was a very confusing assignment since I ran into problems were the serial m
 
 
 
+## New Ping
+
+
+
+
 ### Description
+This assignment required an ultrasonic sensor, L.E.D., button and resistors. The L.E.D. needed to be turned on when a certain range of distance (**10**) was sensed, and the button was pressed, the L.E.D. would turn on. the code was done in chunks and the wiring was used from previous assignment. 
 
 ### Evidence
 
-.[tile](link)
+.[TinkerCAD wiring ](https://www.tinkercad.com/things/6JflxveDrT0-new-ping/editel)
 
 ### Image
 
 ![title](link)
 
 
-### Reflection
 
+```C++
+
+/*
+  Ezhar Zahid
+  Assignment: New Ping
+  Date: 1,4,2020
+*/
+
+
+#include <NewPing.h>
+
+#define TRIGGER_PIN 9
+#define ECHO_PIN 11
+#define MAX_DISTANCE 200
+NewPing myHC_SR04(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
+int distance = 0;
+int buttonState = LOW;
+
+
+
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(6, OUTPUT);            // Connected to the LED.
+  pinMode(3, INPUT);             // Connected to the button.
+}
+
+
+
+void loop() {
+
+  distance = myHC_SR04.ping_cm();
+  Serial.println(distance);        // Prints out the distance.
+  delay(100);                      // Adds a delay in between each distance printed.
+
+  buttonState = digitalRead(3);    // shows what state the button is in.
+  Serial.println(buttonState);     // prints out the state the button is in.
+
+  if ((distance <= 10) && (buttonState == HIGH)) {  // shows if button and distance is high and below 10.
+    digitalWrite(6, HIGH);        // L.E.D. is turned on.
+    Serial.println("LED is ON");    // prints out L.E.D. statues.
+  } else
+    digitalWrite(6, LOW);         // L.E.D. turns off, if command "if statment" doesn't meet requirments. 
+
+
+}
+
+
+
+```
+
+
+
+
+
+### Reflection
+this assignment was really chalenging and long. I ran into lots of malfunctioning and code errors along the way. I broke the codes in to chunks of code and did them part by part. I changed the wiring a bit when it still didn't work. I later attneded office hours and got help from the teacher. the wiring ws fixed, but the codes needed to be changed a bit. after that I finally got it to work.
 
 
 
