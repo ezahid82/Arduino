@@ -159,7 +159,11 @@ This assignment required an ultrasonic sensor, L.E.D., button and resistors. The
 
 
 
-<img src="Pictures For Arduino/New Ping ON.jpg" alt="New Ping ON" width="100" height="100">
+<img src="Pictures For Arduino/New Ping ON.jpg" alt="New Ping ON" width="200" height="200">
+
+
+
+<img src="Pictures For Arduino/New Ping OFF.jpg" alt="New Ping OFF" width="200" height="200">
 
 
 
