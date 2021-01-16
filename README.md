@@ -235,11 +235,118 @@ this assignment was really chalenging and long. I ran into lots of malfunctionin
 
 
 
+
+## Photoresistor
+
+
+
+
 ### Description
+THis assignment required a photoresistor. The wiring was fairly easeir than the previous one's. The code required me to use new commands like (**analogRead**) which was used for the photoresistor. the L.E.D. turns on when the light of the photo resistor is 
+
 
 ### Evidence
 
-.[tile](link)
+.[TinkerCAD wiring](https://www.tinkercad.com/things/1Xas0X4tYxZ-photoresistor/editel)
+
+
+### Image
+
+![title](link)
+
+
+
+<img src="Pictures For Arduino/" alt=" " width="400" height="400">
+
+
+
+```C++
+
+/*
+
+  Name: Ezhar Zahid
+  Assignment: Photoresistor
+  Purpose: Make an L.E.D. light up use photoresistor
+  Date: Jan/13/2020
+
+*/
+
+int analogPin = A0;
+int value = 0;
+int ledPin = 6;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(ledPin, OUTPUT);               // the L.E.D. is sending the output by turning on.
+  pinMode(analogPin, INPUT);             // the analogPin is resiving the input.
+
+}
+void loop() {
+  {
+    value = analogRead(analogPin);       // reads the pin for photoresistor.
+    Serial.println(value);               // prints out the value of what the photoresistor is receiving.
+
+  }
+  {
+    if (value <= 20)                     // makes the L.E.D. turn on when value drops below 20.
+
+      digitalWrite(6, HIGH);             // makes the L.E.D. turn on.
+
+    else
+      digitalWrite(6, LOW);             // makes the L.E.D. turn off.
+  }
+
+}
+
+
+```
+
+
+### Reflection
+This assignment was easier than the previuos assignments I did. I put the (**value**) of the photoresistor at 20, meaning that when the lightness of the drops below 20, the L.E.D. will turn on. the value of the photoresistor was a little rough at the start, but then by plugging in certain values the L.E.D. was perfectly valued. 
+
+
+
+
+---
+
+
+
+
+
+
+### Description
+
+
+### Evidence
+
+.[]()
+
+
+### Image
+
+![title](link)
+
+
+### Reflection
+
+
+
+
+---
+
+
+
+
+
+
+
+### Description
+
+
+### Evidence
+
+.[]()
 
 
 ### Image
@@ -256,4 +363,28 @@ this assignment was really chalenging and long. I ran into lots of malfunctionin
 ---
 
 
+
+
+
+
+
+### Description
+
+
+### Evidence
+
+.[]()
+
+
+### Image
+
+![title](link)
+
+
+### Reflection
+
+
+
+
+---
 
