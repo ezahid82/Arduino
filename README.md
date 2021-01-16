@@ -252,11 +252,11 @@ THis assignment required a photoresistor. The wiring was fairly easeir than the 
 
 ### Image
 
-![title](link)
+![Photo-resistor OFF ](Pictures%20For%20Arduino/Photoresistor%20OFF.jpg)
 
 
 
-<img src="Pictures For Arduino/" alt=" " width="400" height="400">
+<img src="Pictures For Arduino/Photoresistor ON" alt="Photoresistor ON" width="400" height="400">
 
 
 
