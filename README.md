@@ -256,7 +256,7 @@ THis assignment required a photoresistor. The wiring was fairly easeir than the 
 
 
 
-<img src="Pictures For Arduino/Photoresistor ON" alt="Photoresistor ON" width="400" height="400">
+<img src="Pictures For Arduino/Photoresistor ON.jpg" alt="Photoresistor ON" width="400" height="400">
 
 
 
